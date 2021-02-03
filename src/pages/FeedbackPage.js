@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import Header from '../components/Header';
-
 class FeedbackPage extends Component {
   render() {
     return (

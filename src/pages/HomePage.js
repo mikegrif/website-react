@@ -5,8 +5,9 @@ import Scripts from '../components/Scripts';
 
 class HomePage extends Component {
   render() {
-    const speakers = this.props.speakers;
-    const artwork = this.props.artwork;
+    const speakers = this.props.speakerList;
+    const artwork = this.props.artworkList;
+    //const handleClick = this.props.handleClick;
     return (
       <>
         <SpeakerList speakers={speakers} />
